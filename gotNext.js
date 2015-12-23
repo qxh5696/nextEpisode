@@ -22,6 +22,9 @@ function nextEpisode(){
 	//sleep will be the value of which to sleep for
 	//Kiss anime.com already starts playing the episode 
 	//the moment the tab is opened. 
+	setTimeOut(nextEpisode, sleep * 1000); //Takes a function and a time in milliseconds, 
+										 //thus the *1000 
+
 }
 
 
